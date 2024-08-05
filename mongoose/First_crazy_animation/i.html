@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+
+    }
+   .sun{
+     height: 100px;
+     width: 100px;
+     background-color: red;
+     position: absolute;
+     /* animation-name: sun-rise;
+     animation-duration: 1s;
+     animation-timing-function: ease-in;
+     animation-delay: 0s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate; */
+     animation: sun-rise 1s ease-in 0s infinite alternate;
+   }
+   .loader{
+    width: 30px;
+    height: 30px;
+    border: 7px solid rgb(103, 95, 95);
+    border-top: 7px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    animation: loading 1s steps(50) 0s infinite normal;
+   }
+
+
+   @keyframes loading{
+    from{
+      transform: rotate(0deg);
+
+      
+    }to{
+      transform: rotate(360deg);
+      
+    }
+   }
+
+   @keyframes sun-rise {
+    from{
+      top : 0px;
+      left: 0px;
+    }to{
+    top: 200px;
+    left: 300px;
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    transform: rotate(360deg);
+    }
+   }
+  
+  </style>
+</head>
+<body>
+  <div class="sun"></div>
+  <div class="loader"></div>
+
+
+</body>
+</html>

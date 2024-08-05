@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(2, 2, 68);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(11, 11, 72);
+  
+}
+.left {
+  font-size: 1.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+main hr {
+  border: 0;
+  background-color: #ccc;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+nav ul li a:hover {
+  color: rgb(157, 88, 221);
+  font-size: 1.02rem;
+}
+
+/* main*/
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  /* background-color: red; */
+  font-size: 2rem;
+}
+.leftSection .btn{
+  background-color: rgb(105, 12, 167);
+  padding: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  border: 2px solid white;
+  transition: all 0.3s;
+}
+.leftSection .btn:hover{
+  background-color: rgb(111, 62, 210);
+  /* font-size: 1.21rem; */
+}
+.leftSection .buttons{
+  padding: 50px 0;
+}
+.rightSection img {
+  width: 80%;
+}
+#element {
+  color: rgb(157, 88, 221);
+}
+.secondSection {
+  width: 80vw;
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 200vh;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.secondSection .vertical {
+  height: 94px;
+  width: 2px;
+  background-color: white;
+  margin: 0 100px;
+}
+.secondSection .box {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+footer{
+  background-color:purple;
+
+
+}
+.footer-secont ul li {
+  list-style: none;
+}
+.footer-secont ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+.footer{
+  display: flex;
+  margin: 23px 122px;
+  justify-content: space-between;
+}
+
+
+/* utility classes */
+.purple {
+  color: rgb(157, 88, 221);
+}
+.text-gray {
+  color: gray;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 120px;
+  font-size: 14px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}

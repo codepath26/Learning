@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    .button button{
+      padding: 20px;
+      border-radius: 10px;
+      border: none;
+      background-color: #000000;
+      color: white;
+      display: block;
+      margin: auto  ;
+    }
+    .button{
+      margin-bottom: 300px;
+      /* border: 1px solid red; */
+      padding-bottom: 50px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h2>Filterable Gallery</h2>
+      <div class="menu">
+        <a href="#" class="btn" data-filter="all">All</a>
+        <a href="#" class="btn" data-filter="cat">Cat</a>
+        <a href="#" class="btn" data-filter="dog">Dog</a>
+        <a href="#" class="btn" data-filter="nature">Nature</a>
+      </div>
+      <div class="box" id="store-items">
+        <div class="stored-item cat">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.IadWjX7Z2rp2w7Td5k-LAwHaFA&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item cat">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.g1m0K7yumfwkc_ub224a4AHaE7&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item cat">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.saj-khKrci7dtSdkEH90-AHaFS&pid=Api&P=0"
+            alt=""
+          />
+        </div>
+        <div class="stored-item cat">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.aoCN8U5TCdDZY_Hu5v8pQQHaE5&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item dog">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.SlnjMSdNaDSG00NjiyOZEQHaFD&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item dog">
+          <img
+            src="https://tse2.mm.bing.net/th?id=OIP.z86nurg5VEy9ULrYNyQu0wHaE5&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item dog">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.ty4h_2HJDoC9LKBtB8zlOQHaE8&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item nature">
+          <img
+            src="https://tse1.mm.bing.net/th?id=OIP.skKvKqvgakbmDsszw5iZrgHaEI&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item nature">
+          <img
+            src="https://tse4.mm.bing.net/th?id=OIP.v6tsucpD-esMCH7QU7jZGgHaEo&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+        <div class="stored-item nature">
+          <img
+            src="https://tse3.mm.bing.net/th?id=OIP.UkG89vab4fcyUBAA5VjC6gHaFP&pid=Api&P=0" class="stored-img"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <button id="btn">Get The images</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

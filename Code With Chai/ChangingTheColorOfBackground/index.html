@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chai aur code</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="heading">Codepath Javascript Learning</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </div>
+</body>
+<script>
+      // function changeheading(){
+      //   document.getElementById('heading').innerText = "Codepath Change Python"
+      // }
+      // function stopSettimeOut (){
+      //   console.log("STOP TIMER")
+      //  clearInterval(settimeId);
+      // }
+ 
+    let d = 1 ; 
+    let intervalId;
+    // function startInderval(){
+    //  intervalId = setInterval(() => {
+    //     console.log(d)
+    //       d++;
+    //   }, 1000);
+    //   }
+// function stopInterval(){
+//  console.log('Interval is Stopped NOW!!')
+//   clearInterval(intervalId);
+// }
+
+function randomColor(){
+  const hex = "0123456789ABCDEF"
+  let color = '#';
+  for(let i =0 ; i<6; i++){
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+// const color = randomColor();
+// console.log(randomColor());
+// document.body.style.backgroundColor = `${color}`
+const heading = document.getElementById('heading');
+function startChangingColor(){
+  if(!intervalId){
+    intervalId = setInterval(() => {
+      let color = randomColor();
+      heading.innerText = color
+      document.body.style.backgroundColor = `${color}`
+    }, 1000);
+  }
+}
+function stopChangingColor(){
+ console.log("stopchanging Color")
+ clearInterval(intervalId);
+ intervalId = null ; 
+ // this is use to make your code very cleaner
+ // But this produce some unwanted behaviour bro changine color unwanted behaviour to remove wrap setinterval inside the if condition
+}
+
+document.getElementById('start').addEventListener('click' , startChangingColor);
+document.getElementById('stop').addEventListener('click' , stopChangingColor);
+
+</script>
+</html>

@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Product 1",
+    "company": "Company A",
+    "price": 19.99,
+    "colors": [
+      "Red",
+      "Blue"
+    ],
+    "image": "product1.jpg",
+    "category": "Electronics",
+    "isFeatured": true
+  },
+  {
+    "name": "Product 2",
+    "company": "Company B",
+    "price": 29.99,
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "image": "product2.jpg",
+    "category": "Clothing",
+    "isFeatured": false
+  },
+  {
+    "name": "Product 3",
+    "company": "Company C",
+    "price": 9.99,
+    "colors": [
+      "Green"
+    ],
+    "image": "product3.jpg",
+    "category": "Home & Garden",
+    "isFeatured": true
+  },
+  {
+    "name": "Product 4",
+    "company": "Company A",
+    "price": 39.99,
+    "colors": [
+      "Silver",
+      "Gold"
+    ],
+    "image": "product4.jpg",
+    "category": "Electronics",
+    "isFeatured": true
+  },
+  {
+    "name": "Product 5",
+    "company": "Company D",
+    "price": 49.99,
+    "colors": [
+      "Blue",
+      "Yellow"
+    ],
+    "image": "product5.jpg",
+    "category": "Toys",
+    "isFeatured": false
+  },
+  {
+    "name": "Product 6",
+    "company": "Company B",
+    "price": 14.99,
+    "colors": [
+      "Black"
+    ],
+    "image": "product6.jpg",
+    "category": "Clothing",
+    "isFeatured": false
+  },
+  {
+    "name": "Product 7",
+    "company": "Company C",
+    "price": 59.99,
+    "colors": [
+      "Red",
+      "Green"
+    ],
+    "image": "product7.jpg",
+    "category": "Electronics",
+    "isFeatured": true
+  },
+  {
+    "name": "Product 8",
+    "company": "Company D",
+    "price": 34.99,
+    "colors": [
+      "White",
+      "Silver"
+    ],
+    "image": "product8.jpg",
+    "category": "Home & Garden",
+    "isFeatured": false
+  },
+  {
+    "name": "Product 9",
+    "company": "Company A",
+    "price": 24.99,
+    "colors": [
+      "Blue",
+      "Black"
+    ],
+    "image": "product9.jpg",
+    "category": "Clothing",
+    "isFeatured": true
+  },
+  {
+    "name": "Product 10",
+    "company": "Company B",
+    "price": 69.99,
+    "colors": [
+      "Gold",
+      "Yellow"
+    ],
+    "image": "product10.jpg",
+    "category": "Electronics",
+    "isFeatured": true
+  }
+]
